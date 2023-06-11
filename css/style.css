@@ -59,13 +59,10 @@ ul{
 li{
     list-style: none;
 }
-section{
-    margin-top: 3rem;
-}
 .container{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
@@ -126,10 +123,8 @@ p{
 .butonns .trailer:hover{
     background-color: var(--button);
 }
-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
+.image{
+    width: 150%;
 }
 /*media queries*/
 
